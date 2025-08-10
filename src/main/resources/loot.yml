@@ -1,0 +1,19 @@
+# Simple weighted loot table. Amount can be a fixed number or a range like 3-7.
+pools:
+  default:
+    - item: "IRON_INGOT:4-8"
+      weight: 10
+    - item: "COAL:8-16"
+      weight: 8
+    - item: "BREAD:3-6"
+      weight: 8
+    - item: "TORCH:8-16"
+      weight: 6
+    - item: "IRON_ORE:2-5"
+      weight: 6
+    - item: "IRON_SWORD:1"
+      weight: 2
+    - item: "IRON_PICKAXE:1"
+      weight: 2
+    - item: "GOLDEN_APPLE:1"
+      weight: 1

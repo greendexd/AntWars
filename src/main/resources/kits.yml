@@ -1,0 +1,22 @@
+kits:
+  miner:
+    helmet: "IRON_HELMET"
+    chestplate: "IRON_CHESTPLATE"
+    leggings: "IRON_LEGGINGS"
+    boots: "IRON_BOOTS"
+    items:
+      - "IRON_PICKAXE:1:EFFICIENCY,2:UNBREAKING,2"
+      - "STONE_AXE:1"
+      - "BREAD:16"
+      - "TORCH:32"
+  warrior:
+    helmet: "CHAINMAIL_HELMET"
+    chestplate: "CHAINMAIL_CHESTPLATE"
+    leggings: "CHAINMAIL_LEGGINGS"
+    boots: "CHAINMAIL_BOOTS"
+    items:
+      - "STONE_SWORD:1:SHARPNESS,1"
+      - "SHIELD:1"
+      - "COOKED_BEEF:16"
+      - "TORCH:16"
+defaultKit: "miner"

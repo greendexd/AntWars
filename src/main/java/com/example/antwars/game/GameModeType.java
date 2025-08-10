@@ -1,0 +1,1 @@
+package com.example.antwars.game; public enum GameModeType { SOLO, TEAM }

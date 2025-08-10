@@ -1,0 +1,1 @@
+package com.example.antwars.game; public enum GameState { WAITING, GATHER, DEATHMATCH, ENDED }

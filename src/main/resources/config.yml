@@ -1,0 +1,41 @@
+gatherDurationSeconds: 600
+pvpDuringGather: false
+friendlyFire: false
+modes:
+  solo:
+    maxPlayers: 12
+  team:
+    teamCount: 6
+    teamSize: 4
+worlds:
+  resource: antwars_resources
+  deathmatch: world
+locations:
+  lobby: null
+  deathmatchCenter: null
+  spawnPoints: []
+border:
+  deathmatchRadius: 50
+  shrinkAfterSeconds: 120
+  shrinkToRadius: 10
+  shrinkTimeSeconds: 90
+autoGenerateCells: true
+autoResetResourceArea: true
+cells:
+  size: 3
+  wallHeight: 2
+  spacing: 7
+  startY: 80
+  floorMaterial: OAK_PLANKS
+  wallMaterial: GLASS
+  roofMaterial: BARRIER
+  roofDespawnSeconds: 5
+  origin:
+    x: 0
+    y: 80
+    z: 0
+  doorway: true
+loot:
+  enableChest: true
+  rollsPerChest: 5
+  pool: default

@@ -1,0 +1,13 @@
+name: AntWars
+main: com.example.antwars.AntWarsPlugin
+version: 1.2.0
+api-version: '1.20'
+author: you
+commands:
+  antwars:
+    description: AntWars admin & player command
+    usage: /antwars <join|leave|start|mode|setlobby|setdm|addspawn|setresourceworld|setdmworld|setgather|setteams|gencells>
+    permission: antwars.use
+permissions:
+  antwars.use:
+    default: op
